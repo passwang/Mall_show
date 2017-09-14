@@ -1,0 +1,31 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-11 15:29:26
+* @Last Modified by:   passwang
+* @Last Modified time: 2017-09-12 03:52:03
+*/
+.result-con{
+	background: #fff;
+	width: 1000px;
+	margin: 10px auto;
+	height: 150px;
+	padding: 20px 0;
+	display: none;
+}
+.result-title{
+	font-size: 25px;
+	color: #666;
+	margin-bottom: 20px;
+}
+.result-content{
+	font-size: 12px;
+	height: 50px;
+	border: 1px solid #fff;
+	line-height: 50px;
+}
+.result-content a{
+	border: 1px solid #999999;
+	padding: 5px;
+	margin: 0 5px;
+
+}

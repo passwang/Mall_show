@@ -1,0 +1,7 @@
+
+<p class="user-centerContent">用户名:<span id="userName">{{username}}</span></p>
+<p class="user-centerContent">电话:<span id="userPhone">{{phone}}</span></p>
+<p class="user-centerContent">邮箱:<span id="userEmail">{{email}}</span></p>
+<p class="user-centerContent">问题:<span id="userQuestion">{{question}}</span></p>
+<p class="user-centerContent">答案:<span id="userAnswer">{{answer}}</span></p>
+<a href="./user-update.html" class="userUpdate">编辑</a>

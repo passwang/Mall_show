@@ -1,0 +1,7 @@
+
+<p class="user-centerContent">用户名:<input class="user-input" type="text" id="userName">{{username}}</p>
+<p class="user-centerContent">电话:<input class="user-input" type="text" id="userPhone">{{phone}}</p>
+<p class="user-centerContent">邮箱:<input class="user-input" type="text" id="userEmail">{{email}}</p>
+<p class="user-centerContent">问题:<input class="user-input" type="text" id="userQuestion">{{question}}</p>
+<p class="user-centerContent">答案:<input class="user-input" type="text" id="userAnswer">{{answer}}</p>
+<a  class="userUpdate">提交</a>

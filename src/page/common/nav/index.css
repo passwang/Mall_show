@@ -1,0 +1,39 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-10 06:31:51
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-13 04:00:26
+*/
+
+ .user-info{
+ 	width: 100%;
+	height: 30px;
+	background: #EEEEEE;
+	line-height: 30px;
+	color: #999999;
+	font-size: 13px;
+	
+}
+
+ nav .login{
+	float: left;
+    margin-left: 130px;
+} 
+
+nav .notin{
+  	margin-left: 130px;
+    display: block;
+  }
+ nav .in{
+ 	display: none;
+ } 
+nav .nav-list{
+  float: right;
+  margin-right: 130px;
+}
+nav .nav-item{
+	 margin: 0 5px;
+}
+nav ul li{
+	float: left;
+}

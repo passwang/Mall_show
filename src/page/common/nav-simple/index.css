@@ -1,0 +1,20 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-10 15:26:05
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-11 15:57:53
+*/
+.nav-simple{
+	height: 60px;
+	line-height: 60px;
+	border-bottom:1px solid #ddd;
+	background: #fff; 
+}
+.nav-simple .w{
+	height: 50px;
+}
+.nav-simple .w .logo{
+	left: 200px;
+	font-size: 25px;
+	font-weight: bold;
+}

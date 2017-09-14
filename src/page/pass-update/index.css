@@ -1,0 +1,56 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-14 11:12:14
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-14 11:40:24
+*/
+.user-center{
+    background: #fff;
+    width: 900px;
+    margin-left: 20px;
+    border: 1px solid #fff;
+    text-align: left;
+}
+.user-center .user-centerTitle{
+	height: 30px;
+	border-bottom: 1px solid #EEEEEE;
+	line-height: 30px;
+	word-spacing: 5px;
+	text-align: left;
+	padding: 10px;
+	font-size: 15px;
+	color: #666666;
+
+}
+
+.user-center .user-centerContent{
+	text-align: left;
+	margin: 20px;
+	color: #000;
+	font-size: 14px;
+}
+.user-center .userUpdate{
+	background: #e80012;
+	text-align: left;
+	display: inline-block;
+	margin-left: 50px;
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	line-height: 30px;
+	padding: 5px;
+	text-align: center;
+	margin-top: 20px;
+}
+.user-center .user-input{
+     height: 20px;
+     width: 200px;
+     margin-left: 30px;
+     line-height: 20px;
+     padding-left: 10px;
+     text-align: right;
+
+}
+.user-centerContent .user-input{
+	text-align: left;
+}

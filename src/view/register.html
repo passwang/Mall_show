@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title><%= htmlWebpackPlugin.options.title %></title>
+ <%= require('html-loader!./layout/head-common.html')%>
+</head>
+
+<body>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <%= require('html-loader!./layout/nav-simple.html')%>
+    <div class="wrap-login w">
+    	<div class="login-con">
+    	   <h1 class="login-title">用户注册</h1>
+    	    <div class="login-content">
+    	        <div class="error-item">
+    	        	<i class="fa fa-minus-circle error-con"></i>
+    	        	<span class="error-msg">error</span>
+    	        </div>
+    	        <div class="user-item">
+    	        	<label for="username" class="user-label"><i class="fa fa-user user-i"></i></label>
+	    		    <input type="text"  id="username" class="user-content" autocomplete="off" placeholder="请输入用户名">
+	    		</div>
+	    		 <div class="user-item">
+	    		    <label for="password" class="user-label"><i class="fa fa-lock user-i"></i></label>
+	    		    <input type="password" id="password" class="user-content" autocomplete="off" placeholder="请输入密码">
+    	        </div>
+                 <div class="user-item">
+                    <label for="passwordConfirm" class="user-label"><i class="fa fa-lock user-i"></i></label>
+                    <input type="password"  id="passwordConfirm" class="user-content" autocomplete="off" placeholder="再次输入密码">
+                </div>
+                 <div class="user-item">
+                    <label for="phone" class="user-label"><i class="fa fa-phone user-i"></i></label>
+                    <input type="password"  id="phone" class="user-content" autocomplete="off" placeholder="请输入电话">
+                </div>
+                 <div class="user-item">
+                    <label for="email" class="user-label"><i class="fa fa-envelope user-i"></i></label>
+                    <input type="password"  id="email" class="user-content" autocomplete="off" placeholder="请输入邮箱">
+                </div>
+                 <div class="user-item">
+                    <label for="question" class="user-label"><i class="fa fa-question user-i"></i></label>
+                    <input type="password"  id="question" class="user-content" autocomplete="off" placeholder="请输入密码提示问题">
+                </div>
+                 <div class="user-item">
+                    <label for="answer" class="user-label"><i class="fa fa-key user-i"></i></label>
+                    <input type="password"  id="answer" class="user-content" autocomplete="off" placeholder="请输入密码提示答案">
+                </div>
+    	        <a class="btn" id="register-button">注册</a>
+    	        <div class="link-item">
+    	        	<a href="./login.html" class="link">已有账号去登录>></a>
+    	        
+    	        </div>
+    	    	
+    	    </div>
+    		
+    	</div>
+    </div>
+     <%= require('html-loader!./layout/footer.html')%>
+
+</body>
+</html>

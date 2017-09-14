@@ -1,0 +1,33 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-10 08:10:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-13 14:23:17
+*/
+.wrap{
+	color: #666666;
+     zoom:1;
+}
+.wrap:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.wrap .nav-list{
+	width: 130px;
+	min-height: 100px;
+	float: left;
+	margin-left: 80px;
+	font-size: 15px;
+}
+.wrap .list-item{
+	margin: 10px 0px;
+}
+.wrap .with-nav{
+	float: left;
+	width: 950px;
+}
+.wrap .list-item.active a{
+	color: #e80012;
+
+}

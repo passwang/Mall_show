@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title><%= htmlWebpackPlugin.options.title %></title>
+ <%= require('html-loader!./layout/head-common.html')%>
+</head>
+<body>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <%= require('html-loader!./layout/nav.html')%>
+	<%= require('html-loader!./layout/header.html')%>
+    <div class="wrap">
+    	<ul class="keyword-list">
+    	    <li class="keyword-item"><a href="./list.html?keyword=手机" class="link" target="_blank">手机</a></li>
+	        <li class="keyword-item"><a href="./list.html?keyword=数码" class="link" target="_blank">数码</a></li>
+	        <li class="keyword-item"><a href="./list.html?keyword=电脑" class="link" target="_blank">电脑</a></li>
+	        <li class="keyword-item"><a href="./list.html?keyword=电视" class="link" target="_blank">电视</a></li>
+	        <li class="keyword-item"><a href="./list.html?keyword=空调" class="link" target="_blank">空调</a></li>
+	        <li class="keyword-item"><a href="./list.html?keyword=冰箱" class="link" target="_blank">冰箱</a></li>
+    	    <li class="keyword-item"><a href="./list.html?keyword=洗衣机" class="link" target="_blank">洗衣机</a></li>
+    	    <li class="keyword-item"><a href="./list.html?keyword=家居" class="link" target="_blank">家居</a></li>
+    	    <li class="keyword-item"><a href="./list.html?keyword=图书" class="link" target="_blank">图书</a></li>
+    	    <li class="keyword-item"><a href="./list.html?keyword=箱包" class="link" target="_blank">箱包</a></li>
+    	</ul>
+        <div class="content with-nav">
+       	   <div class="loading"></div>
+        </div>
+    </div>
+    <div class="w">
+    	<div class="classify-wrap">
+    		<h1 class="classify-title">家用电器</h1>
+    		<ul class="classify-list">
+    		    <li class="classify-item">
+    		       <a href="./list.html?categoryId=">
+    		    	<span class="classify-text">双开门冰箱</span>
+    		       
+    		       </a>
+    		    </li>
+    		    <li class="classify-item"><a href="./list.html?categoryId="></a></li>
+    		    <li class="classify-item"><a href="./list.html?categoryId="></a></li>
+    		    <li class="classify-item"><a href="./list.html?categoryId="></a></li>
+    		    <li class="classify-item"><a href="./list.html?categoryId="></a></li>
+    		</ul>
+    	</div>
+    </div>
+     <%= require('html-loader!./layout/footer.html')%>
+</body>
+</html>

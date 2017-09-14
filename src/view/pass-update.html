@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title><%= htmlWebpackPlugin.options.title %></title>
+ <%= require('html-loader!./layout/head-common.html')%>
+</head>
+<body>
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <%= require('html-loader!./layout/nav.html')%>
+	<%= require('html-loader!./layout/header.html')%>
+	<!-- 面包屑导航 -->
+	<div class="crumb">
+		<a href="./index.html" class="link navbar">MALL</a>
+		<a class="link-text">>></a>
+		<a href="javascript:;" class="link"><%= htmlWebpackPlugin.options.title %></a>
+	</div>
+    <div class="wrap">
+    	  <%= require('html-loader!./layout/nav-side.html')%>
+    	  <div class="content with-nav">
+    	  	<div class="user-center">
+    	  	    <p class="user-centerTitle">修改密码</p>
+    	  	    <div class="userInfo">
+                    <p class="user-centerContent">原始密码:<input class="user-input" type="password" id="password"></p>
+                    <p class="user-centerContent">新设密码:<input class="user-input" type="password" id="passwordNew"></p>
+                    <p class="user-centerContent">确认密码:<input class="user-input" type="password" id="passwordConfirm"></p> 
+                     <p class="user-centerContent"><a class="userUpdate" href="javascript:;">提交</a></p> 
+                </div>
+    	  		
+    	  	</div>
+    	  </div>
+    </div>
+     <%= require('html-loader!./layout/footer.html')%>
+</body>
+</html>

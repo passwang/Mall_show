@@ -1,0 +1,45 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-10 02:02:29
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-13 15:25:20
+*/
+header{
+	  height: 150px;
+}
+header .w{
+	top: 50px;
+	left: 0;
+	clear: both;
+	}
+  
+
+.w .search-input{
+	width: 400px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #e80012;
+	text-align: left;
+	padding-left: 10px;
+}
+.w .search-button{
+	position: absolute;
+	height: 44px;
+	width: 100px;
+	background: #e80012;
+	color: #fff;
+	border: 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.crumb{
+	background: #EEEEEE;
+    height: 50px;
+    border-top: 2px solid #e80012;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 120px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+

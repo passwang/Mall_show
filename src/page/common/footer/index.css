@@ -1,0 +1,32 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-10 02:03:21
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-12 12:53:31
+*/
+footer{
+	// position: absolute;
+	// bottom: 0;
+	// left: 0;
+	width: 100%;
+	height: 100px;
+   
+}
+footer .links{
+    margin-top: 20px;
+
+}
+footer .links a{
+	margin-right: 10px;
+     color: #666666;
+     position: relative;
+     margin-left: 10px;
+    font-size: 10px;
+
+}
+
+
+footer .copyright{
+     color: #666666;
+  
+}
