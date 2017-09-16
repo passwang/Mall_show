@@ -1,6 +1,10 @@
 .DS_Store
 /node_modules/
 /dist/
+<<<<<<< HEAD
 
 npm-debug.log
 
+=======
+npm-debug.log
+>>>>>>> 2bdf54399a4c069f03119c00b2514c1008548944

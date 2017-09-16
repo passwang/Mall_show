@@ -2,7 +2,8 @@
 * @Author: Administrator
 * @Date:   2017-09-06 12:24:14
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-13 03:12:02
+<<<<<<< HEAD
+* @Last Modified time: 2017-09-14 15:17:41
 */
 require("./index.css");
 require("page/common/nav-simple/index.js");

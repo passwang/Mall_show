@@ -2,7 +2,11 @@
 * @Author: Administrator
 * @Date:   2017-09-06 10:18:42
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-14 13:53:08
+<<<<<<< HEAD
+* @Last Modified time: 2017-09-14 15:24:13
+=======
+* @Last Modified time: 2017-09-09 09:56:27
+>>>>>>> 2bdf54399a4c069f03119c00b2514c1008548944
 */
 var path=require("path");
 const htmlWebpackPlugin=require("html-webpack-plugin");
@@ -10,7 +14,7 @@ const webpack=require("webpack");
 const ExtractTextPlugin=require("extract-text-webpack-plugin");
 //环境变量的配置
 var WEBPACK_ENV=process.env.WEBPACK_ENV||'dev';
-console.log( WEBPACK_ENV);
+
 var returndata=function returnplugin(name,title){
 	return ({
        	template:'./src/view/'+name+'.html',
@@ -21,7 +25,6 @@ var returndata=function returnplugin(name,title){
        	chunks:['common',name]
        });
 }
-
 
 var config={
 	context:__dirname,
@@ -35,7 +38,6 @@ var config={
     'user-center':['./src/page/user-center/index.js'],
     'user-update':['./src/page/user-update/index.js'],
     'pass-update':['./src/page/pass-update/index.js']
-
 	},
 	output:{
         path:path.resolve(__dirname,'./dist'),
